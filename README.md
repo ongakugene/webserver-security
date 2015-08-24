@@ -24,6 +24,7 @@ URL - http://ec2-52-11-186-120.us-west-2.compute.amazonaws.com
 11. I created this wsgi script in /srv/item-catalog and included the app in it.
 12. I installed all the projects dependencies using pip, specifically flask-sqlalchemy, flask-bootstrap, flask-wtf, oauth2client, requests and dicttoxml.
 13. I could successfully access the project, login using G+ and create categories/items.
+14. The root login is not allowed even using keys for security. Login is permitted as user grader using key authentication.
 
 ### iv. A list of any third-party resources you made use of to complete this project.
 I referenced the tutorial on the following [site](http://killtheyak.com/use-postgresql-with-django-flask/) to find out how to change sqlite URL to postgres for Flask-SQLAlchemy.
